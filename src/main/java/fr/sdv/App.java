@@ -23,6 +23,17 @@ public class App {
             List<Fournisseur> fournisseurs = dao.findAll();
             fournisseurs.forEach(System.out::println);
 
+            // Ajouter un nouveau fournisseur
+            //Fournisseur nouveauFournisseur = new Fournisseur("L’Espace Création");
+            //dao.insert(nouveauFournisseur);
+
+            // Mettre à jour un fournisseur
+            //dao.update("La Maison des Chaises", "La Maison des Voitures");
+
+            // Supprimer un fournisseur
+            //Fournisseur fournisseurASupprimer = new Fournisseur("La Maison des Vins");
+            //dao.delete(fournisseurASupprimer);
+
         } catch (SQLException e) {
             System.err.println(e.getMessage());
         }

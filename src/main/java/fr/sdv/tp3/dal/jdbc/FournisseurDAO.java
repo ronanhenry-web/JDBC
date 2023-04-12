@@ -29,7 +29,7 @@ public class FournisseurDAO implements IFournisseurDAO {
             while (rs.next()) {
                 fournisseurs.add(new Fournisseur(rs.getInt("ID"), rs.getString("NOM")));
             }
-            fournisseurs.forEach(System.out::println);
+            //fournisseurs.forEach(System.out::println);
         }
         return fournisseurs;
     }
