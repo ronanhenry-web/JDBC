@@ -1,4 +1,4 @@
-package fr.sdv.tp3.entities;
+package fr.sdv.tpJDBC.entities;
 
 public class Fournisseur {
     private int id;

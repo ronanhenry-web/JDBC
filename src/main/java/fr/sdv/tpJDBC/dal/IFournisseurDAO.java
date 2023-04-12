@@ -1,6 +1,6 @@
-package fr.sdv.tp3.dal;
+package fr.sdv.tpJDBC.dal;
 
-import fr.sdv.tp3.entities.Fournisseur;
+import fr.sdv.tpJDBC.entities.Fournisseur;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,7 +1,7 @@
-package fr.sdv.tp3.dal.jdbc;
+package fr.sdv.tpJDBC.dal.jdbc;
 
-import fr.sdv.tp3.dal.IFournisseurDAO;
-import fr.sdv.tp3.entities.Fournisseur;
+import fr.sdv.tpJDBC.dal.IFournisseurDAO;
+import fr.sdv.tpJDBC.entities.Fournisseur;
 
 import java.sql.*;
 import java.util.ArrayList;

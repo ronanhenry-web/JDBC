@@ -1,4 +1,4 @@
-package fr.sdv.tp3;
+package fr.sdv.tpJDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
 
-public class TestUpdate {
+public class TestInsert {
     private static final String DB_URL;
     private static final String DB_LOGIN;
     private static final String DB_PWD;
@@ -23,7 +23,7 @@ public class TestUpdate {
             Statement st = cnx.createStatement()) {
 
             // execute Update que pour le DELETE, INSERT et UPDATE
-            int nb = st.executeUpdate("UPDATE fournisseur SET NOM='La Maison des Peinturesss' WHERE ID= 4");
+            int nb = st.executeUpdate("INSERT INTO fournisseur (NOM) VALUES ('La Maison de la Peinture')");
             System.out.println(nb);
 
         } catch (SQLException e) {

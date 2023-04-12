@@ -1,14 +1,14 @@
 package fr.sdv;
 
-import fr.sdv.tp3.dal.IFournisseurDAO;
-import fr.sdv.tp3.dal.jdbc.FournisseurDAO;
-import fr.sdv.tp3.entities.Fournisseur;
+import fr.sdv.tpJDBC.dal.IArticleDAO;
+import fr.sdv.tpJDBC.dal.IFournisseurDAO;
+import fr.sdv.tpJDBC.dal.jdbc.ArticleDAO;
+import fr.sdv.tpJDBC.dal.jdbc.FournisseurDAO;
+import fr.sdv.tpJDBC.entities.Article;
+import fr.sdv.tpJDBC.entities.Fournisseur;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.ResourceBundle;
 
 public class App {
 

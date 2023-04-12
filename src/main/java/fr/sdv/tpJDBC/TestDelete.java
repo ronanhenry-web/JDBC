@@ -1,4 +1,4 @@
-package fr.sdv.tp3;
+package fr.sdv.tpJDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

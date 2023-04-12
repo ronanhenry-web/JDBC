@@ -1,6 +1,6 @@
-package fr.sdv.tp3;
+package fr.sdv.tpJDBC;
 
-import fr.sdv.tp3.entities.Fournisseur;
+import fr.sdv.tpJDBC.entities.Fournisseur;
 
 import java.sql.*;
 import java.util.ArrayList;
