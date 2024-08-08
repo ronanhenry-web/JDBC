@@ -1,4 +1,4 @@
-# Projet Java
+# Projet JDBC
 
 Objectif mise en place d'un DAO, requêtes préparées, Singleton, opérations CRUD
 
